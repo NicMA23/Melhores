@@ -1,0 +1,135 @@
+span {
+    border-radius: 50%;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.card-body,
+.card-header {
+    text-align: center;
+}
+
+footer,
+header {
+    background-color: rgb(15, 57, 112);
+    color: #fff;
+    padding: 5px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+#footer {
+    text-align: center;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+#menu {
+    justify-content: flex-end;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+
+#inicio {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+#inicio img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    #inicio {
+        width: 740px;
+    }
+}
+
+.cont-inicio {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+body {
+    background-color: #ccc;
+}
+
+#contato img {
+    height: 50px;
+}
+
+#contato section {
+    padding: 16px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    height: 20vh;
+}
+
+#melhores {
+    padding-top: 16px;
+    height: 100%;
+}
+
+
+#contato {
+    display: block;
+}
+
+#melhores a {
+    margin-top: 5%;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-link a {
+    width: 100%;
+}
+
+#contato section {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    #contato {
+        padding: 32px 0;
+    }
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-expand-md">
+            <div class="container" id="header">
+                <h1>Melhores +</h1>
+                <button type="button" class="btn navbar-toggler border-0" data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+                    <span class="navbar-toggler-icon border-0"></span>
+                </button>
+                <nav class="collapse navbar-collapse" id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#melhores">Melhores Viagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container section" data-bs-spy="scroll" data-bs-target="#header">
+        <div class="cont-inicio">
+            <section id="inicio">
+                <div class="carousel carousel-fade" id="carousel-ex" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block" src="/imgs/colvers-8173610_1280.jpg" alt="folhas na chuva">
+                            <div class="carousel-caption">
+                                <h2>Folhas</h2>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block" src="/imgs/frog-8151540_1280.jpg" alt="um sapo no lago">
+                            <div class="carousel-caption">
+                                <h2>Sapo</h2>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block" src="/imgs/solar-wind-7917659_1280.jpg" alt="Uma aurora boreal">
+                            <div class="carousel-caption">
+                                <h2>Aurora</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel-ex" data-bs-slide="prev" class="carousel-control-prev"
+                        type="button">
+                        <span class="carousel-control-prev-icon bg-black"></span>
+                    </button>
+                    <button data-bs-target="#carousel-ex" data-bs-slide="next" class="carousel-control-next"
+                        type="button">
+                        <span class="carousel-control-next-icon bg-black"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-ex" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#carousel-ex" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-ex" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+        <section id="melhores">
+            <h2>Melhores Países para viajar</h2>
+            <div class="row row-gap-2 justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            Suécia
+                        </div>
+                        <img src="/imgs/sweden.jpg" alt="suécia">
+                        <div class="card-body">
+                            <div class="card-text">
+                                Natureza deslumbrante com lagos, florestas e litoral pitoresco. Cidades modernas como
+                                Estocolmo e Gotemburgo. Atividades de verão e inverno, culinária sueca.
+                            </div>
+                            <div class="card-link">
+                                <a class="btn btn-primary" href="#">
+                                    Sobre
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            Noruega
+                        </div>
+                        <img src="/imgs/norway.jpg" alt="noruega">
+                        <div class="card-body">
+                            <div class="card-text">
+                                Paisagens dramáticas de fiordes, montanhas e cascatas. Bergen, aurora boreal, cruzeiros
+                                de fiordes, aventuras ao ar livre.
+                            </div>
+                            <div class="card-link">
+                                <a class="btn btn-primary" href="#">
+                                    Sobre
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            Havaí
+                        </div>
+                        <img src="/imgs/havai.jpg" alt="havaí">
+                        <div class="card-body">
+                            <div class="card-text">
+                                Paraíso tropical com praias, águas claras e clima agradável. Atividades aquáticas,
+                                vulcões, cultura havaiana.
+                            </div>
+                            <div class="card-link">
+                                <a class="btn btn-primary" href="#">
+                                    Sobre
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="contato">
+            <section>
+                <h2>Contato</h2>
+                <a href="#">
+                    <img src="/imgs/whatsapp.png" alt="whatsapp">
+                </a>
+                <a href="#">
+                    <img src="/imgs/facebook.png" alt="whatsapp">
+                </a>
+                <a href="#">
+                    <img src="/imgs/instagram.png" alt="whatsapp">
+                </a>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div class="container" id="footer">
+            Melhores+ &copy; Todos os direitos reservados
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
